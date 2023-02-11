@@ -1,4 +1,10 @@
 // Assignment code here
+//Characterset Constants for password generation
+
+const casesm = "abcdefghijklmnopqrstuvwxyz"
+const caselg = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const casenum = "1234567890"
+const casespc = "!@#$%^&*()_+-={}[]`~,.<>/?|"
 
 
 // Get references to the #generate element
