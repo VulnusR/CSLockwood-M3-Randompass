@@ -1,10 +1,10 @@
 // Assignment code here
 //Characterset Constants for password generation
 
-const casesm = "abcdefghijklmnopqrstuvwxyz";
-const caselg = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const casenum = "1234567890"
-const casespc = "~!@#$%^&*()_+`{}|[]\,./<>?";
+const caseSm = "abcdefghijklmnopqrstuvwxyz";
+const caseLg = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const caseNum = "1234567890"
+const caseSpc = "~!@#$%^&*()_+`{}|[]\,./<>?";
 
 
 //Generate Password Function
@@ -19,14 +19,20 @@ while (passlength < 8 | passlength > 128) {
 };
 
 //Prompt for characterset constants in ln 4-7
-var casesm = confirm("Use lowercase characters?");
-var caselg = confirm("Use uppercase characters?");
-var casenum = confirm("Use numbers?");
-var casespc = confirm("Use non-letter/non-numeric characters?");
+var caseSm = confirm("Use lowercase characters?");
+var caseLg = confirm("Use uppercase characters?");
+var caseNum = confirm("Use numbers?");
+var caseSpc = confirm("Use non-letter/non-numeric characters?");
 
 };
 
-
+// Validates character type using a while loop
+while (!caseSm && !caseLg && !caseNum && !caseSpc){
+     caseSm = confirm("Use lowercase characters?");
+     caseLg = confirm("Use uppercase characters?");
+     caseNum = confirm("Use numbers?");
+     caseSpc = confirm("Use non-letter/non-numeric characters?");
+};
 
 
 
