@@ -38,10 +38,10 @@ while (!useCaseSm && !useCaseLg && !useCaseNum && !useCaseSpc){
 var passCharactercase = "";
 
 //Initalizing character set
-if (useCaseSm) passCharactercase = caseSm
-if (useCaseLg) passCharactercase = caseLg
-if (useCaseNum) passCharactercase = caseNum
-if (useCaseSpc) passCharactercase = caseSpc
+if (useCaseSm) passCharactercase += caseSm
+if (useCaseLg) passCharactercase += caseLg
+if (useCaseNum) passCharactercase += caseNum
+if (useCaseSpc) passCharactercase += caseSpc
 
 //declares the password variable that is used in the starter code's "writePassword" function
 var password = "";
@@ -53,9 +53,6 @@ for (var i = 0; i <passlength; i++){
 
 return password;
 };
-
-
-
 
 
 // Get references to the #generate element
