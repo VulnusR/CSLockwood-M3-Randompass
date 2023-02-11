@@ -21,7 +21,7 @@ while (passlength < 8 | passlength > 128) {
 //Prompt for characterset constants in ln 4-7
 var casesm = confirm("Use lowercase characters?");
 var caselg = confirm("Use uppercase characters?");
-var casenum = confrim("Use numbers?");
+var casenum = confirm("Use numbers?");
 var casespc = confirm("Use non-letter/non-numeric characters?");
 
 };
