@@ -26,6 +26,7 @@ var useCaseSpc = confirm("Use non-letter/non-numeric characters?");
 
 // Validates character type using a while loop
 while (!useCaseSm && !useCaseLg && !useCaseNum && !useCaseSpc){
+  alert("At least one character set MUST be selected.");
   useCaseSm = confirm("Use lowercase characters?");
   useCaseLg = confirm("Use uppercase characters?");
   useCaseNum = confirm("Use numbers?");
