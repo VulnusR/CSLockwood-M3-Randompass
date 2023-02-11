@@ -19,21 +19,40 @@ while (passlength < 8 | passlength > 128) {
 };
 
 //Prompt for characterset constants in ln 4-7
-var caseSm = confirm("Use lowercase characters?");
-var caseLg = confirm("Use uppercase characters?");
-var caseNum = confirm("Use numbers?");
-var caseSpc = confirm("Use non-letter/non-numeric characters?");
-
-};
+var useCaseSm = confirm("Use lowercase characters?");
+var useCaseLg = confirm("Use uppercase characters?");
+var useCaseNum = confirm("Use numbers?");
+var useCaseSpc = confirm("Use non-letter/non-numeric characters?");
 
 // Validates character type using a while loop
-while (!caseSm && !caseLg && !caseNum && !caseSpc){
-     caseSm = confirm("Use lowercase characters?");
-     caseLg = confirm("Use uppercase characters?");
-     caseNum = confirm("Use numbers?");
-     caseSpc = confirm("Use non-letter/non-numeric characters?");
-};
+while (!useCaseSm && !useCaseLg && !useCaseNum && !useCaseSpc){
+  useCaseSm = confirm("Use lowercase characters?");
+  useCaseLg = confirm("Use uppercase characters?");
+  useCaseNum = confirm("Use numbers?");
+  useCaseSpc = confirm("Use non-letter/non-numeric characters?");
+ };
 
+
+
+//Declaring a new variable for characterset initalization
+var passCharactercase = "";
+
+//Initalizing character set
+if (useCaseSm) passCharactercase = caseSm
+if (useCaseLg) passCharactercase = caseLg
+if (useCaseNum) passCharactercase = caseNum
+if (useCaseSpc) passCharactercase = caseSpc
+
+
+
+
+
+
+
+
+
+
+};
 
 
 
