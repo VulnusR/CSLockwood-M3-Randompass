@@ -43,15 +43,15 @@ if (useCaseLg) passCharactercase = caseLg
 if (useCaseNum) passCharactercase = caseNum
 if (useCaseSpc) passCharactercase = caseSpc
 
+//declares the password variable that is used in the starter code's "writePassword" function
+var password = "";
 
+//For loop to generate a password
+for (var i = 0; i <passlength; i++){
+  password += passCharactercase.charAt(Math.floor(Math.random() * passCharactercase));
+};
 
-
-
-
-
-
-
-
+return password;
 };
 
 
