@@ -14,7 +14,7 @@ function generatePassword() {
 var passlength = prompt("Please enter your desired password length between 8 and 128 characters");
 
 //Password Length validation
-while (passlength < 8 | passlength > 128) {
+while (passlength < 8 || passlength > 128) {
   passlength = prompt("Password length is outside of range parameters. 8-124 characters required.");
 };
 
@@ -48,7 +48,7 @@ var password = "";
 
 //For loop to generate a password
 for (var i = 0; i <passlength; i++){
-  password += passCharactercase.charAt(Math.floor(Math.random() * passCharactercase));
+  password += passCharactercase.charAt(Math.floor(Math.random() * passCharactercase.length));
 };
 
 return password;
