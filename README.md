@@ -35,7 +35,7 @@ Deployed Application: https://vulnusr.github.io/CSLockwood-M1-CodeRefactory/
 
 ### Screenshot
 
-![Screen Shot of the Module 2 project at it appears in the live server](./assets/images/RandompassSS.png "Module 2 Project Screen")
+![Screen Shot of the Module 3 project at it appears in the live server](./assets/images/RandompassSS.png "Module 3--Randompass Project Screen")
 
 ### Contact
 
