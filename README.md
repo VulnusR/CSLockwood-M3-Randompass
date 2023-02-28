@@ -30,6 +30,8 @@ WHEN the password is generated<br>
 THEN the password is either displayed in an alert or written to the page<br>
 
 ### Links
+
+Original Repo: https://github.com/coding-boot-camp/friendly-parakeet <br>
 Deployed Application: https://vulnusr.github.io/CSLockwood-M3-Randompass/
 
 
