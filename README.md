@@ -30,7 +30,7 @@ WHEN the password is generated<br>
 THEN the password is either displayed in an alert or written to the page<br>
 
 ### Links
-Deployed Application: https://vulnusr.github.io/CSLockwood-M1-CodeRefactory/
+Deployed Application: https://vulnusr.github.io/CSLockwood-M3-Randompass/
 
 
 ### Screenshot
